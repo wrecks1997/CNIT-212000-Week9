@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    font-family: "Franklin Gothic Medium Cond";
+    overflow-x: hidden;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: teal;
+}
+.logo{
+    background-color: white;
+    width: 50px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    flex-wrap: wrap;
+}
+.link{
+    margin: 1em;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: white;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/InspireWater_Blog_Banner_Header.jpg") no-repeat center ;
+}
+.banner h1{
+    color: white;
+
+}
+.container-1{
+    padding: 5px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: teal;
+    margin: 20px;
+
+}
+
+.top{
+    height: 25px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.box h3 {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+.container-2{
+    height: 250px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+ }
+ .container-2-box{
+     margin-left: 15%;
+     margin-right: 15%;
+     color: white;
+ }
+ .container-3{
+     height: 200px;
+     display: flex;
+     justify-content: space-around;
+ }
+ .box-3{
+     height: 175px;
+     width: 300px;
+     background-color: teal;
+     margin: 20px;
+ }
+.box-3 h3 {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.top-3{
+    height: 40px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+ .footer{
+     padding: 5px;
+     margin-top: 50px;
+     background-color: teal;
+     display: flex;
+     justify-content: center;
+
+ }
+ .footer-box{
+     color: white;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
